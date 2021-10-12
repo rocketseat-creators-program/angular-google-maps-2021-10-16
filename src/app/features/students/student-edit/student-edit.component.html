@@ -1,0 +1,62 @@
+<h2 class="mb-4 mt-5 text-center">Edit student</h2>
+
+<form (ngSubmit)="onUpdate()" class="w-50 mx-auto" *ngIf="student">
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" 
+               class="form-control"
+               name="name"
+               [(ngModel)]="student.name"
+               placeholder="Enter the student name..." 
+               required>
+    </div>
+
+    <div class="form-group">
+        <label>E-mail</label>
+        <input type="email"
+               class="form-control"
+               name="email"
+               [(ngModel)]="student.email"
+               placeholder="Enter the student e-mail..."
+               email
+               required>
+    </div>
+
+    <div class="form-group">
+        <label>Birthday</label>
+        <input type="date"
+               class="form-control"
+               [(ngModel)]="student.birthday"
+               name="birthday"
+               required>
+    </div>
+
+    <div class="form-row" *ngIf="student.lat && student.lng">
+        <div class="form-group col-sm-6">
+            <label>Latitude</label>
+            <input type="text" 
+                   class="form-control"
+                   name="lat"
+                   [value]="student.lat"
+                   disabled>
+        </div>
+    
+        <div class="form-group col-sm-6">
+            <label>Longitude</label>
+            <input type="text" 
+                class="form-control"
+                name="lng"
+                [value]="student.lng"
+                disabled>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col-sm-6">
+            <a [routerLink]="redirectPath" class="btn btn-block btn-outline-light">Back</a>
+        </div>
+        <div class="col-sm-6">
+            <button type="submit" class="btn btn-block btn-outline-success" [disabled]="!isValid()">Update</button>
+        </div>
+    </div>
+</form>
