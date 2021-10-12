@@ -1,0 +1,76 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Ana",
+      "email": "ana@gmail.com",
+      "birthday": "2001-04-01",
+      "createdAt": 1633923723674,
+      "lat": -22.9029105,
+      "lng": -43.178742
+    },
+    {
+      "id": 2,
+      "name": "Pedro",
+      "email": "pedro@gmail.com",
+      "birthday": "2000-08-28",
+      "createdAt": 1633923723674,
+      "lat": -22.920335282864578,
+      "lng": -43.187710729638674
+    },
+    {
+      "id": 3,
+      "name": "Marcia",
+      "email": "marcia@gmail.com",
+      "birthday": "2002-08-21",
+      "createdAt": 1633923723674,
+      "lat": -22.964555,
+      "lng": -43.17856
+    },
+    {
+      "id": 4,
+      "name": "Marcos",
+      "email": "marcos@gmail.com",
+      "birthday": "2003-05-17",
+      "createdAt": 1633923723674,
+      "lat": -22.955021451071588,
+      "lng": -43.19596956616212
+    },
+    {
+      "id": 5,
+      "name": "Victor",
+      "email": "victor@gmail.com",
+      "birthday": "1993-04-12",
+      "createdAt": 1633923723674,
+      "lat": -22.90335736419021,
+      "lng": -43.203512634887694
+    },
+    {
+      "id": 6,
+      "name": "Vanessa",
+      "email": "vanessa@gmail.com",
+      "birthday": "2003-08-09",
+      "createdAt": 1633923723674,
+      "lat": -22.92423055167554,
+      "lng": -43.21944502148438
+    },
+    {
+      "id": 7,
+      "name": "Mariana",
+      "email": "mariana@gmail.com",
+      "birthday": "2000-11-06",
+      "createdAt": 1633923723674,
+      "lat": -22.946049641703162,
+      "lng": -43.18507883127441
+    },
+    {
+      "id": 8,
+      "name": "Bernardo",
+      "email": "bernardo@gmail.com",
+      "birthday": "1995-02-27",
+      "createdAt": 1633923723674,
+      "lat": -22.90184937920261,
+      "lng": -43.13397352970265
+    }
+  ]
+}
