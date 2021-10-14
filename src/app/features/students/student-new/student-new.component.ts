@@ -33,7 +33,6 @@ export class StudentNewComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log(this.student);
     this.studentService.save(this.student).subscribe(() => {
       this.router.navigateByUrl(this.redirectPath);
     });

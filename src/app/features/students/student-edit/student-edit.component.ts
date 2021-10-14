@@ -50,12 +50,13 @@ export class StudentEditComponent implements OnInit {
     return true;
   }
 
-  private searchStudent() {
-    return this.studentService.findById(this.id).then(response => {
-      this.student = response;
-    }).catch(() => {
-      this.router.navigateByUrl("/students");
-    });
+  private async searchStudent() {
+    return this.studentService.findById(this.id).toPromise()
+      .then(response => {
+        this.student = response;
+      }).catch(() => {
+        this.router.navigateByUrl("/students");
+      });
   }
 
 }
