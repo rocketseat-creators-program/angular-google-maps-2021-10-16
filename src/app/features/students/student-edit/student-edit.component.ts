@@ -22,18 +22,7 @@ export class StudentEditComponent implements OnInit {
 
   ngOnInit(): void {
     this.id = this.activatedRoute.snapshot.params.id;
-    const { source, lat, lng } = this.activatedRoute.snapshot.queryParams;
-
-    if (source && source === "map") {
-      this.redirectPath = "/students/map";
-    }
-
-    this.searchStudent().then(() => {
-      if (lat && lng) {
-        this.student!.lat = parseFloat(lat);
-        this.student!.lng = parseFloat(lng);
-      }
-    });
+    this.searchStudent();
   }
 
   onUpdate() {
@@ -51,9 +40,9 @@ export class StudentEditComponent implements OnInit {
   }
 
   private searchStudent() {
-    return this.studentService.findById(this.id).then(response => {
+    return this.studentService.findById(this.id).subscribe(response => {
       this.student = response;
-    }).catch(() => {
+    }, error => {
       this.router.navigateByUrl("/students");
     });
   }

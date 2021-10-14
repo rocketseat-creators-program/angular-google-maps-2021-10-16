@@ -7,21 +7,17 @@ import { StudentNewComponent } from './student-new/student-new.component';
 import { StudentEditComponent } from './student-edit/student-edit.component';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from 'src/app/shared/shared.module';
-import { StudentMapComponent } from './student-map/student-map.component';
-import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
     StudentListComponent,
     StudentNewComponent,
-    StudentEditComponent,
-    StudentMapComponent
+    StudentEditComponent
   ],
   imports: [
     CommonModule,
     FormsModule,
     SharedModule,
-    GoogleMapsModule,
     StudentsRoutingModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

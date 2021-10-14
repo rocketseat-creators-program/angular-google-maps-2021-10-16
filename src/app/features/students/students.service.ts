@@ -27,7 +27,7 @@ export class StudentsService {
   }
 
   findById(id: number) {
-    return this.http.get<Student>(`${this.url}/${id}`).toPromise();
+    return this.http.get<Student>(`${this.url}/${id}`);
   }
 
   findAll() {
