@@ -71,13 +71,6 @@
       "createdAt": 1633923723674,
       "lat": -22.90184937920261,
       "lng": -43.13397352970265
-    },
-    {
-      "name": "PerdiTudo",
-      "email": "pedrocarlantonio@gmail.com",
-      "birthday": "1992-08-28",
-      "createdAt": 1634021717539,
-      "id": 9
     }
   ]
 }
