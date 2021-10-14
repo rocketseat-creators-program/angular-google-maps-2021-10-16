@@ -2,7 +2,7 @@
 
 # Utilizando Markers, Drag e Click events com Google Maps em projetos Angular
 
-- [Template utilizado na aula](https://github.com/rocketseat-experts-club/angular-http-requests-2021-10-11/tree/template)
+- [Template utilizado na aula](https://github.com/rocketseat-experts-club/angular-google-maps-2021-10-14/tree/template)
 
 ## Tecnologias
 
