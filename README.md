@@ -2,6 +2,9 @@
 
 # Utilizando Markers, Drag e Click events com Google Maps em projetos Angular
 
+Nessa aula iremos implementar o Google Maps em nossa aplicação Angular para que seja possível listar todos os alunos recuperados através de uma requisição GET.
+Além disso, aprenderemos também a utilizar alguns eventos como Drag (Arrastar) e Click (Clicar no mapa e no Marker) para poder cadastrar um novo aluno e editar suas informações.
+
 - [Template utilizado na aula](https://github.com/rocketseat-experts-club/angular-google-maps-2021-10-14/tree/template)
 
 ## Tecnologias
@@ -27,7 +30,8 @@
 - Vontade de aprender :D
 
 ## Comandos utilizados
-- npm install --save @angular/google-maps
+- npm install @angular/google-maps
+- ng generate component features/students/student-map
 
 ## Configuração
 
