@@ -5,7 +5,7 @@
 Nessa aula iremos implementar o Google Maps em nossa aplicação Angular para que seja possível listar todos os alunos recuperados através de uma requisição GET.
 Além disso, aprenderemos também a utilizar alguns eventos como Drag (Arrastar) e Click (Clicar no mapa e no Marker) para poder cadastrar um novo aluno e editar suas informações.
 
-- [Template utilizado na aula](https://github.com/rocketseat-experts-club/angular-google-maps-2021-10-15/tree/template)
+- [Template utilizado na aula](https://github.com/rocketseat-experts-club/angular-google-maps-2021-10-16/tree/template)
 
 ## Tecnologias
 
