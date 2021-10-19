@@ -7,6 +7,7 @@ import { StudentNewComponent } from './student-new/student-new.component';
 import { StudentEditComponent } from './student-edit/student-edit.component';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
     CommonModule,
     FormsModule,
     SharedModule,
+    GoogleMapsModule,
     StudentsRoutingModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

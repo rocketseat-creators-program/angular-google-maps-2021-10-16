@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Student } from '../student';
 import { StudentsService } from '../students.service';
 
@@ -15,6 +15,7 @@ export class StudentNewComponent implements OnInit {
 
   constructor(
     private router: Router,
+    private activatedRoute: ActivatedRoute,
     private studentService: StudentsService
   ) { }
 
